@@ -11,33 +11,6 @@ User.hasMany(Post, {
 // linking the post to the user id - the post can belong to one user, not many: belongsTo
 Post.belongsTo(User, {
     foreignKey: 'user_id',
-    onDelete: 'SET NULL'
-});
-
-// linking the user to many posts - viewing their voted on posts 
-User.belongsToMany(Post, {
-    through: Vote,
-    as: 'voted_posts',
-    foreignKey: 'user_id',
-    onDelete: 'CASCADE'
-});
-
-// linking the post to the liked users - viewing how many likes on a post 
-Post.belongsToMany(User, {
-    through: Vote,
-    as: 'voted_posts',
-    foreignKey: 'post_id',
-    onDelete: 'CASCADE'
-});
-
-// users votes
-User.hasMany(Vote, {
-    foreignKey: 'user_id'
-});
-
-// posts votes
-Post.hasMany(Vote, {
-    foreignKey: 'post_id'
 });
 
 Comment.belongsTo(User, {
@@ -58,6 +31,5 @@ User.hasMany(Comment, {
 Post.hasMany(Comment, {
     foreignKey: 'post_id'
 });
-
 
 module.exports = { User, Post, Comment };
