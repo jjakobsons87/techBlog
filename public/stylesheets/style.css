@@ -180,7 +180,8 @@ footer {
     font-size: 110%;
 }
 
-/* Login form CSS */
+/* Login form CSS
+
 body,
 .signin {
     background-color: #d3d3d3;
@@ -196,7 +197,7 @@ body,
     width: 405px;
     margin: auto;
     padding: 60px 60px;
-    background: url(https://picsum.photos/id/1004/5616/3744) no-repeat center center #505050;
+    background: url(https://isorepublic.com/wp-content/uploads/2019/07/iso-republic-abstract-shape-pattern-background-9-1100x786.jpg) no-repeat center center #505050;
     background-size: cover;
     box-shadow: 0px 30px 60px -5px #000;
 }
@@ -352,4 +353,4 @@ a {
     position: relative;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.2);
-}
+} */
