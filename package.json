@@ -8,5 +8,25 @@
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.19.2"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "techblog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjakobsons87/techBlog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjakobsons87/techBlog/issues"
+  },
+  "homepage": "https://github.com/jjakobsons87/techBlog#readme"
 }
