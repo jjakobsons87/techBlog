@@ -1,5 +1,5 @@
 {{!-- login form --}}
-<form class="login-form">
+{{!-- <form class="login-form">
     <div>
         <label for="email-login">email:</label>
         <input type="text" id="email-login" />
@@ -11,10 +11,10 @@
     <div>
         <button type="submit">login</button>
     </div>
-</form>
+</form> --}}
 
 {{!-- signup form --}}
-<form class="signup-form">
+{{!-- <form class="signup-form">
     <div>
         <label for="username-signup">username:</label>
         <input type="text" id="username-signup" />
@@ -30,24 +30,28 @@
     <div>
         <button type="submit">signup</button>
     </div>
-</form>
+</form> --}}
 
-{{!-- <div class="login">
-    <h2 class="active"> sign in </h2>
+<div class="login">
+    <div>
+        <h2 class="active"> sign in </h2>
+        <button>SIGN IN</button>
+    </div>
+    
 
     <h2 class="nonactive"> sign up </h2>
     <form>
 
 
 
-        <input type="text" class="text" name="username">
-        <span>username</span>
+        <input type="text" id="email-login" class="text" name="username">
+        <span>email</span>
 
         <br>
 
         <br>
 
-        <input type="password" class="text" name="password">
+        <input type="password" id="password-login" class="text" name="password">
         <span>password</span>
         <br>
 
@@ -66,4 +70,4 @@
 
 </div>
 
-<script src="/javascript/login.js"></script> --}}
+<script src="/javascript/login.js"></script>

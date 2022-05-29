@@ -22,7 +22,7 @@ a:hover {
     color: #3486eb;
 }
 
-button {
+/* button {
     background-color: #225ca3;
     border: 0;
     padding: 1%;
@@ -35,7 +35,7 @@ button {
 
 button:hover {
     background-color: #3486eb;
-}
+} */
 
 .post-list {
     margin: 0;
@@ -180,7 +180,7 @@ footer {
     font-size: 110%;
 }
 
-/* Login form CSS
+/* Login form CSS */
 
 body,
 .signin {
@@ -353,4 +353,4 @@ a {
     position: relative;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.2);
-} */
+}
